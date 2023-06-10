@@ -41,18 +41,18 @@ class _LoginPageState extends State<LoginPage> {
               ],
             ),
             const SizedBox(height: 120.0),
-            const TextField(
-              // controller: _usernameController,
-              decoration: InputDecoration(
+            TextField(
+              controller: _usernameController,
+              decoration: const InputDecoration(
                 filled: true,
                 labelText: 'UserName',
               ),
             ),
             const SizedBox(height: 12.0),
 
-            const TextField(
-              // controller: _passwordController,
-              decoration: InputDecoration(
+            TextField(
+              controller: _passwordController,
+              decoration: const InputDecoration(
                 filled: true,
                 labelText: 'Password',
               ),
